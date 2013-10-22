@@ -1,4 +1,4 @@
-function [ theta3_plus, theta4_plus, theta3_minus, theta4_minus ] = PosAnalysis( d,a,b,c,theta_2 )
+function [ theta3_plus, theta4_plus ] = PosAnalysis( d,a,b,c,theta_2 )
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -19,7 +19,5 @@ Bx_minus = S - (2.*Ay.*By_minus)/(2.*(Ax-d));  %this could probably be done bett
     theta3_plus = atan2d((By_plus-Ay),(Bx_plus-Ax));
     theta4_plus = atan2d(By_plus,(Bx_plus-d));
     
-    theta3_minus = atan2d((By_minus-Ay),(Bx_minus-Ax));
-    theta4_minus = atan2d(By_minus,(Bx_minus-d));
 end
 
