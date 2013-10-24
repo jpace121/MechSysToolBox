@@ -1,6 +1,6 @@
 function [ alpha3, alpha4] = accelerationAnalysis(theta2, theta3, theta4, omega2, omega3, omega4, alpha2, a, b, c)
-%UNTITLED3 Summary of this function goes here
-%  from pg. 
+%ACCELEARATIONANALYSIS Returns values for angular acceleration given other values.
+%  from pg. 360 of the Mechanical Systems book used by Carl Moore at FSU, Fall 2013.
 
 A = c*sind(theta4);
 B = b*sind(theta3);

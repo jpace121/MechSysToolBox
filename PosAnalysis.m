@@ -1,6 +1,7 @@
 function [ theta3_plus, theta4_plus ] = PosAnalysis( d,a,b,c,theta_2 )
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%POSANALYSIS Determines the value of theta3 and theta4 given other measurements.
+%   Uses equation from pg. 183, section 4.5 of the custom book used by Carl 
+%Moore at FSU, Fall 2013.
 
 Ax = a*cosd(theta_2);
 Ay = a*sind(theta_2);

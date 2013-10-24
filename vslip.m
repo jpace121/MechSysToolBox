@@ -1,6 +1,6 @@
 function [ vslipmag ] = vslip( theta2, L2, omega2, theta4)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%vslip Finds the magnitude of v_slip, given other values.
+%   Analytical expression of the graphical mathod taught in class.  Uses dotproducts to find vslip.
 
 O4A_hat = [cosd(theta4) sind(theta4)];
 vtrans_hat = [cosd(theta4+90) sind(theta4+90)];
