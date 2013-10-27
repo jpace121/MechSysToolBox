@@ -1,4 +1,4 @@
-function [ omega3,omega4 ] = angularVelocityAnalysis( a,b,c,theta2,theta3,theta4,omega2 )
+function [ omega3,omega4 ] = velocityAnalysis( a,b,c,theta2,theta3,theta4,omega2 )
 %ANGULARVELOCITYANALYSIS Returns omega3 and omega4 given other values
 %   From pg.317 in the Mech Sys Textbook used by Calr Moore at FSU Fall
 %   2013.
